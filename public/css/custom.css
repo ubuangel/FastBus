@@ -1,0 +1,334 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.bus-container {
+    display: flex;
+    gap: 20px; /* Espacio entre las columnas */
+    background-color: #f1eaea;
+    padding: 10px;
+    align-items: flex-start; /* Alinear al lado izquierdo */
+    max-width: 600px; /* Ejemplo de restricción de ancho a 800px */
+}
+
+.seatempty {
+    width: 30px; /* Ajusta el ancho según tus necesidades */
+    height: 30px; /* Ajusta la altura según tus necesidades */
+    background-color: #f2f2f2; /* Establece el color de fondo como blanco */
+    margin-bottom: 5px; /* Ajusta el margen inferior según tus necesidades */
+    /* Agrega cualquier otro estilo deseado para los asientos vacíos */
+}
+
+.column {
+    display: grid;
+    grid-template-rows: repeat(10, 1fr); /* 5 filas para los asientos */
+    gap: 10px; /* Espacio entre los asientos */
+    background-color: #f2f2f2; /* Fondo gris para la columna */
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.seat {
+    background-color: #ccc;
+    height: 32px; /* Altura más pequeña */
+    width: 32px; /* Ancho más pequeño */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center; 
+    align-items: center;
+    font-weight: bold;
+    font-weight: 300; /* Fuente más delgada */
+    font-size: 20px; /* Tamaño de fuente más grande */
+    border: 1px solid #999; /* Borde de 1px de ancho y color gris */
+    border-radius: 8px; /* Esquinas redondeadas */
+    font-family: Arial, sans-serif; /* Cambia la fuente a Arial o cualquier otra fuente */
+}
+
+/* ... */
+#empty-seat,
+#empty-seat-2 {
+    display: none; /* Oculta los asientos vacíos */
+}
+
+/* Agrega el siguiente estilo al final del archivo custom.css */
+.seat:hover {
+    background-color: #07dffc; /* Cambia el color de fondo cuando el cursor está sobre el asiento */
+    cursor: pointer; /* Cambia el cursor a un puntero */
+}
+
+/* para la barra */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    color: #555555;
+    padding: 25px 60px;
+    cursor: pointer;
+    position: relative;
+    font-family: Arial, sans-serif; /* Cambia la fuente aquí */
+    font-size: 18px; /* Ajusta el tamaño de la fuente según tu preferencia */
+}
+
+.arrow,
+.arrow-color {
+    clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%, 10% 50%);
+}
+
+.tab-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* .btn-tab:hover {
+background-color: #ff9900;
+color: #ffffff;
+} */
+
+.btn-tab:hover::before {
+    border-right-color: #ff9900;
+}
+
+.arrow-color {
+    background-color: #ff9900;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start; /* Alinea el contenido a la izquierda */
+    align-items: flex-start; /* Alinea el contenido arriba */
+}
+
+/* Estilos para el tooltip */
+.seat[data-bs-toggle="tooltip"] {
+    position: relative;
+    cursor: pointer;
+}
+
+.seat[data-bs-toggle="tooltip"]:hover::before {
+    content: attr(data-precio);
+    position: absolute;
+    top: -30px;
+    left: 0;
+    background-color: #ff9900;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 6px;
+    white-space: nowrap;
+}
+
+/* para la leyebda del bus */
+.card-propio {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card-propio__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.imagen-lateral {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.imagen-lateral img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.asientos-desc2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.asientos-monto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.asientos-monto p {
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.button-reservar {
+    background-color: #0096c7;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-reservar:hover {
+    background-color: #38aa64;
+}
+
+.caracteristicas {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.columna_caracteristica {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.columna_caracteristica > div {
+    flex-basis: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.imagen-lateral-carac {
+    display: flex;
+    align-items: center;
+    margin: 0 -5px;
+}
+
+.imagen-lateral-carac img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* estilos de la parte de confimrar los datos */
+.cliente-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cliente-form {
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-value {
+    padding: 5px 0;
+}
+
+.form-text {
+    display: inline-block;
+    padding: 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.terminos-condiciones {
+    margin-top: 20px;
+}
+
+.terminos-condiciones label {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.terminos-condiciones input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#terminos-link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .col-md-4 {
+        margin-top: 20px;
+    }
+
+    .card-propio__title {
+        font-size: 16px;
+    }
+
+    .imagen-lateral img {
+        max-width: 80px;
+        margin-right: 10px;
+    }
+
+    .button-reservar {
+        font-size: 14px;
+        width: 100%;
+        padding: 10px 16px;
+    }
+
+    .columna_caracteristica > div {
+        flex-basis: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .col-md-4 {
+        margin-top: 20px;
+    }
+
+    .card-propio__title {
+        font-size: 18px;
+    }
+
+    .imagen-lateral img {
+        max-width: 100px;
+        margin-right: 15px;
+    }
+
+    .button-reservar {
+        font-size: 16px;
+        width: 100%;
+        padding: 10px 16px;
+    }
+
+    .columna_caracteristica > div {
+        flex-basis: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+}
