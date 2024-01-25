@@ -17,7 +17,7 @@
         <div class="card-body">
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 @foreach ($buses as $bus)
-                    <div class="w-full max-w-xl bg-gray-200 p-4 mb-4 rounded-lg shadow-md">
+                    <div class="w-full max-w-xl bg-blue-200 p-4 mb-4 rounded-lg shadow-md">
                         <div class="flex items-center justify-between">
                             <div>
                                 <h2 class="text-xl font-bold">{{$bus->num_bus}}</h2>
@@ -25,7 +25,7 @@
                             </div>
                         </div>
                         <a href="{{ route('elegirasientos', [$id_viaje, $bus->id_bus]) }}"
-                            class="block mt-4 px-6 py-2 bg-green-500
+                            class="block mt-4 px-6 py-2 bg-blue-500
                             text-white font-bold rounded-lg text-center">
                             Elegir
                         </a>

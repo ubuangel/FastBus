@@ -18,7 +18,7 @@
 </head>
 <body>
     <!-- Barra de navegación -->
-    <nav class="bg-gray-900">
+    <nav class="bg-blue-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
                 <div class="flex items-center">
@@ -51,12 +51,12 @@
     </nav>
 
     <!-- Formulario de búsqueda -->
-    <div class="bg-gray-100 py-6">
+    <div class="bg-blue-100 py-6">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-white rounded-lg shadow-lg p-6">
+            <div class="bg-blue rounded-lg shadow-lg p-6">
                 <form action="{{route('login')}}" method="GET" class="grid grid-cols-1 sm:grid-cols-4 gap-6">
                     <div>
-                        <label for="origen" class="block text-sm font-medium text-gray-700 bg-red-200 rounded-md px-2 py-1">Origen</label>
+                        <label for="origen" class="block text-sm font-medium text-gray-700 bg-green-200 rounded-md px-2 py-1">Origen</label>
                         <select name="origen" id="origen" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md placeholder-gray-400">
                             <option value="" disabled selected>Selecciona un origen</option>
                             <option value="Lima">Lima</option>
@@ -75,7 +75,7 @@
                         </select>
                     </div>
                     <div>
-                        <label for="destino" class="block text-sm font-medium text-gray-700 bg-red-200 rounded-md px-2 py-1">Destino</label>
+                        <label for="destino" class="block text-sm font-medium text-gray-700 bg-green-200 rounded-md px-2 py-1">Destino</label>
                         <select name="destino" id="destino" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md placeholder-gray-400">
                             <option value="" disabled selected>Selecciona un origen</option>
                             <option value="Lima">Lima</option>
@@ -94,15 +94,15 @@
                         </select>
                     </div>
                     <div>
-                        <label for="fecha" class="block text-sm font-medium text-gray-700 bg-red-200 rounded-md px-2 py-1">Fecha de viaje</label>
+                        <label for="fecha" class="block text-sm font-medium text-gray-700 bg-green-200 rounded-md px-2 py-1">Fecha de viaje</label>
                         <input type="date" name="fecha" id="fecha" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md">
                     </div>
                     <div>
-                        <label for="fecha-regreso" class="block text-sm font-medium text-gray-700 bg-red-200 rounded-md px-2 py-1">Fecha de regreso (opcional)</label>
+                        <label for="fecha-regreso" class="block text-sm font-medium text-gray-700 bg-green-200 rounded-md px-2 py-1">Fecha de regreso (opcional)</label>
                         <input type="date" name="fecha-regreso" id="fecha-regreso" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md">
                     </div>
                     <div>
-                        <button type="submit" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-red-500 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Buscar</button>
+                        <button type="submit" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-500 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Buscar</button>
                     </div>
                 </form>
             </div>
@@ -111,9 +111,9 @@
 
     
     <!-- Contenido principal -->
-    <div class="relative sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
+    <div class="relative sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-blue-100 dark:bg-dots-lighter dark:bg-blue-900 selection:bg-green-500 selection:text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-white rounded-lg shadow-lg p-6">
+            <div class="bg-blue rounded-lg shadow-lg p-6">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div>
                         <img src="{{ asset('img/busGo.png') }}" alt="Phone" class="h-48 w-auto mx-auto">
@@ -121,7 +121,7 @@
                     <div>
                         <h2 class="text-4xl font-bold mb-4">Venta de pasajes  Interprovinciales</h2>
                         <p class="text-gray-800">Reserva tus pasajes en línea con FastBus y disfruta de una experiencia incomparable. Explora rutas en varias ciudades y encuentra los mejores precios de boletos. ¡Descubre los	 beneficios de FastBus!</p>
-                        <a href="/login" class="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded mt-4 inline-block">Reserva ahora</a>
+                        <a href="/login" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded mt-4 inline-block">Reserva ahora</a>
                     </div>
                 </div>
             </div>

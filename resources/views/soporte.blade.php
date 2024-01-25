@@ -18,7 +18,7 @@
 </head>
 <body>
     <!-- Barra de navegación -->
-    <nav class="bg-gray-900">
+    <nav class="bg-blue-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
                 <div class="flex items-center">
@@ -51,7 +51,7 @@
     </nav>
 
     <div class="container mx-auto py-8">
-  <div class="bg-white shadow-lg p-6">
+  <div class="bg-blue shadow-lg p-6">
     <h1 class="text-4xl font-bold text-center mb-4">Equipo de Desarrollo</h1>
     <h4 class="text-xl font-bold">Team FastBus</h4>
     <p class="mt-4">
@@ -111,7 +111,7 @@
 
   <div class="mt-8 text-center">
     <p class="mb-4">¿Deseas contribuir con el desarrollo de este proyecto?</p>
-    <a href="#" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg inline-block">Ver más detalles</a>
+    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg inline-block">Ver más detalles</a>
   </div>
 </div>
 

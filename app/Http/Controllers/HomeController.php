@@ -26,7 +26,7 @@ class HomeController extends Controller
                 'viajes.fecha_inicio','viajes.fecha_retorno',
                 'viajes.id_viaje')
                 ->join('viajes','ruta.id_ruta','=','viajes.id_ruta')
-                ->where('viajes.estado',1);
+                ->where('viajes.estado','1');
         if($requisitos['origen'] != ''){
             $datos = $datos->where('ruta.origen',$requisitos['origen']);
         }

@@ -33,10 +33,10 @@
     </style>
 </head>
 
-<body>
+<body class="bg-blue-100">
     <div id="app">
         <!-- Barra de navegación -->
-    <nav class="bg-gray-900">
+    <nav class="bg-blue-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
                 <div class="flex items-center">
@@ -91,7 +91,7 @@
     </nav>
 
 
-        <main class="py-4">
+        <main class="bg-blue-100 py-4">
             @yield('content')
         </main>
     </div>
