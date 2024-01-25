@@ -207,13 +207,16 @@ Aqui podemos Ingresar al sistema con nuestro usuario y contraseña.
 Si no estamos registrados, tambien podemos loguearnos.
 ![Register_1](https://github.com/ubuangel/FastBus/blob/main/img/Register_1.png?raw=true)
 
-- **Pagina de Usuario y Reserva de Asiento:** Aca pódemos ya selecci0onar los viajes, tambien podemos ya reservar el asiento en la lista que se genera en la parte inferior.
+- **Pagina de Usuario y Reserva de Asiento:**
+Aca pódemos ya seleccionar los viajes, tambien podemos ya reservar el asiento en la lista que se genera en la parte inferior.
 ![Userhome](https://github.com/ubuangel/FastBus/blob/main/img/1_1.png?raw=true)
 ![UserRes](https://github.com/ubuangel/FastBus/blob/main/img/1.png?raw=true)
 
-- **Seleccion de Asiento:**Aqui  podemos verificar qeu asientos se encuentran disponibles o no.
+- **Seleccion de Asiento:**
+Aqui  podemos verificar qeu asientos se encuentran disponibles o no.
 ![SA](https://github.com/ubuangel/FastBus/blob/main/img/3.png?raw=true)
-- **Confirmación de datos:**Aqui Confirmamos nuestros datos para la reserva del asiento.
+- **Confirmación de datos:**
+Aqui Confirmamos nuestros datos para la reserva del asiento.
 ![CD](https://github.com/ubuangel/FastBus/blob/main/img/4.png?raw=true)
 - **Confirmación de Reserva**
 ![CR](https://github.com/ubuangel/FastBus/blob/main/img/5.png?raw=true)
