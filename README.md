@@ -165,10 +165,6 @@ Se escribio los requisitos específicos de FastBus en el siguiente documento, el
 ![ML](https://github.com/ubuangel/FastBus/blob/main/Desarrollo/MODELO_LOGICO.jpg)
 ![ML2](https://github.com/ubuangel/FastBus/blob/main/Desarrollo/MODELO_LOGICO2.jpg)
 
-### Diagrama de Casos de Uso
-
-![Casos_Uso](https://github.com/ubuangel/FastBus/blob/main/Desarrollo/Diagrama_Casos_Uso_v2.jpg)
-
 ### Arquitectura
 
 <p align="center">
@@ -207,6 +203,8 @@ Aqui podemos Ingresar al sistema con nuestro usuario y contraseña.
 Si no estamos registrados, tambien podemos loguearnos.
 ![Register_1](https://github.com/ubuangel/FastBus/blob/main/img/Register_1.png?raw=true)
 
+---
+
 - **Pagina de Usuario y Reserva de Asiento:**
 Aca pódemos ya seleccionar los viajes, tambien podemos ya reservar el asiento en la lista que se genera en la parte inferior.
 ![Userhome](https://github.com/ubuangel/FastBus/blob/main/img/1_1.png?raw=true)
@@ -215,32 +213,32 @@ Aca pódemos ya seleccionar los viajes, tambien podemos ya reservar el asiento e
 - **Seleccion de Asiento:**
 Aqui  podemos verificar qeu asientos se encuentran disponibles o no.
 ![SA](https://github.com/ubuangel/FastBus/blob/main/img/3.png?raw=true)
+
 - **Confirmación de datos:**
 Aqui Confirmamos nuestros datos para la reserva del asiento.
 ![CD](https://github.com/ubuangel/FastBus/blob/main/img/4.png?raw=true)
+
 - **Confirmación de Reserva**
 ![CR](https://github.com/ubuangel/FastBus/blob/main/img/5.png?raw=true)
+
 ---
-MOCKUPS(Figma)
 
-Pagina de inicio
+- **Pagina de Empresa:**
+Aca pódemos visualizar como es el home de una empresa:
+![Userhome](https://github.com/ubuangel/FastBus/blob/main/img/6.png?raw=true)
 
-![home](https://github.com/ubuangel/FastBus/assets/83055437/1734e837-8a3e-4bde-9936-4d01190c9d58)
+- **Crear y Modificar Rutas**
+Aca pódemos visualizar la página mediante la cual la empresa podrá editar, crear o eliminar Rutas:
+![Userhome](https://github.com/ubuangel/FastBus/blob/main/img/7.png?raw=true)
 
-Pagina de Inicio de sesion
+- **Crear y Modificar Viajes**
+Aca pódemos visualizar la página mediante la cual la empresa podrá editar, crear o eliminar Viajes:
+![Userhome](https://github.com/ubuangel/FastBus/blob/main/img/8.png?raw=true)
 
-![Login](https://github.com/ubuangel/FastBus/assets/83055437/db3c2d85-0cbf-4c25-8a68-d592eb4833be)
+- **Crear y Modificar Buses**
+Aca pódemos visualizar la página mediante la cual la empresa podrá editar, crear o eliminar Buses:
+![Userhome](https://github.com/ubuangel/FastBus/blob/main/img/9.png?raw=true)
 
-Pagina de registro
-
-![Register](https://github.com/ubuangel/FastBus/assets/83055437/68227d04-78a0-4c56-aec4-96746ad4357b)
-
-Pagina de seleccion de destinos
-![Destino_1](https://github.com/ubuangel/FastBus/assets/83055437/58287608-4efc-42ee-ac65-d89493160ec9)
-
-Pagina de reserva de asiento
-
-![reserva_1](https://github.com/ubuangel/FastBus/assets/83055437/20309391-99a1-48fe-a481-332fc0e0502d)
 # **Generación de Casos de Prueba - Caja Negra**
 
 ## EMPRESA
@@ -288,39 +286,12 @@ Pagina de reserva de asiento
 | 5  |  Confimar datos, sin seleccion de asientos  | No Válido |  Seleccion de asiento: null | Aparece un mensaje de que no selecciono ningun asiento y se redirige a la misma pestaña  |
 | 6  | Comfimar datos, sin seleccion de Términos y Condiciones  | No Válido | Términos y condiciones: checkNull   | Aparece una alerta, donde te dice que aceptes los Términos y Condiciones  |
 
-
 # **Pruebas Unitarias**
 
 ## Test de Usuario, Cliente y Empresa
 ![test_user](https://github.com/ubuangel/FastBus/blob/main/Desarrollo/test_user.jpg)
 ## Test de Ruta, Crear, editar y eliminar
 ![test_ruta](https://github.com/ubuangel/FastBus/blob/main/Desarrollo/test_ruta.jpg)
-
-
-# **Analisis con SonarQube**
-
-![image](https://github.com/ubuangel/FastBus/assets/83055437/03e57cd5-1c0e-44f0-8361-9cc4b770efd6)
-
-
-# **Estilos de Programación**
-
-## 1. Declared-Intentions.
-
-### *Restricciones*
-
-## 2. Plugins.
-
-### *Restricciones* 
-
-## 3. Dataspaces.
-
-### *Restricciones*
-
- ## 4. Resful.
-### *Restricciones*
-
-## 5. Pipeline.
-
 
 # **Concepto CRUD aplicado**
 CRUD hace referencia a un acrónimo en el que se reúnen las primeras letras de las cuatro operaciones fundamentales de aplicaciones persistentes en sistemas de bases de datos:
@@ -346,9 +317,6 @@ En pocas palabras, CRUD resume las funciones requeridas por un usuario para crea
 ## *7. Organización de Archivos y Carpetas.*
 
 ## *8. Evitar codigo redundante.* <br>
-
-
-
 
 ### Licencia de Laravel
 
