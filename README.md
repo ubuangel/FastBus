@@ -225,19 +225,19 @@ Aqui Confirmamos nuestros datos para la reserva del asiento.
 
 - **Pagina de Empresa:**
 Aca pódemos visualizar como es el home de una empresa:
-![Userhome](https://github.com/ubuangel/FastBus/blob/main/img/6.png?raw=true)
+![Businesshome](https://github.com/ubuangel/FastBus/blob/main/img/6.png?raw=true)
 
 - **Crear y Modificar Rutas**
 Aca pódemos visualizar la página mediante la cual la empresa podrá editar, crear o eliminar Rutas:
-![Userhome](https://github.com/ubuangel/FastBus/blob/main/img/7.png?raw=true)
+![Routepage](https://github.com/ubuangel/FastBus/blob/main/img/7.png?raw=true)
 
 - **Crear y Modificar Viajes**
 Aca pódemos visualizar la página mediante la cual la empresa podrá editar, crear o eliminar Viajes:
-![Userhome](https://github.com/ubuangel/FastBus/blob/main/img/8.png?raw=true)
+![Travelpage](https://github.com/ubuangel/FastBus/blob/main/img/8.png?raw=true)
 
 - **Crear y Modificar Buses**
 Aca pódemos visualizar la página mediante la cual la empresa podrá editar, crear o eliminar Buses:
-![Userhome](https://github.com/ubuangel/FastBus/blob/main/img/9.png?raw=true)
+![Buspage](https://github.com/ubuangel/FastBus/blob/main/img/9.png?raw=true)
 
 # **Generación de Casos de Prueba - Caja Negra**
 
