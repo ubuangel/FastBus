@@ -158,7 +158,7 @@ Se escribio los requisitos específicos de FastBus en el siguiente documento, el
 
 ### Modelo Entidad Relación
 
-![MER](https://github.com/ubuangel/FastBus/blob/main/Desarrollo/MER_busgo.jpg)
+![MER](https://github.com/ubuangel/FastBus/blob/main/Desarrollo/MER_FastBus.jpg)
 
 ### Modelo Logico
 

@@ -55,7 +55,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col items-center justify-center h-full">
                 <h1 class="text-4xl font-bold mb-4 text-center">Nuestros servicios para ti</h1>
-                <img src="{{ asset('img/busGo.png') }}" alt="Bus" class="h-48 w-auto mx-auto mb-4">
+                <img src="{{ asset('img/FastBus.png') }}" alt="Bus" class="h-48 w-auto mx-auto mb-4">
                 <p class="text-blue-800">
                             FastBus es una empresa líder en la venta de pasajes de autobús en línea, brindando un servicio conveniente y confiable para viajeros de todo el país. Nuestros servicios están diseñados para ofrecerte una experiencia de reserva de pasajes fácil y segura, permitiéndote explorar una amplia variedad de rutas y destinos en todo el Perú.
                         </p>

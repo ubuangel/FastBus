@@ -116,7 +116,7 @@
             <div class="bg-blue rounded-lg shadow-lg p-6">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div>
-                        <img src="{{ asset('img/busGo.png') }}" alt="Phone" class="h-48 w-auto mx-auto">
+                        <img src="{{ asset('img/FastBus.png') }}" alt="Phone" class="h-48 w-auto mx-auto">
                     </div>
                     <div>
                         <h2 class="text-4xl font-bold mb-4">Venta de pasajes  Interprovinciales</h2>
