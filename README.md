@@ -197,15 +197,15 @@ La realizacion del proyecto es de forma progresiva por la que los mockups seran 
 ### Avance del proyecto
 - **Pagina de Inicio:**
 Es la vista General al ingresar a la pagina Web, antes de pode rhacer una compra debemos registrarnos, pero ya podemos visualizar y buscar los viajes que estan disponibles.
-![home_1](https://github.com/ubuangel/FastBus/assets/83055437/da09a5e2-72ac-4fe8-a28e-0ed637edd815)
+![home_1](https://github.com/ubuangel/FastBus/blob/main/img/home_1.png?raw=true)
 
 - **Pagina para el inicio de sesion:**
 Aqui podemos Ingresar al sistema con nuestro usuario y contraseña.
-![Login_1](https://github.com/ubuangel/FastBus/assets/83055437/f161987e-dd64-4a1e-ad77-c4ba6a563eff)
+![Login_1](https://github.com/ubuangel/FastBus/blob/main/img/Login_1.png?raw=true)
 
 - **Pagina para el registro:**
 Si no estamos registrados, tambien podemos loguearnos.
-![Register_1](https://github.com/ubuangel/FastBus/assets/83055437/c8865dc9-a829-41a8-87fc-3232be55fccf)
+![Register_1](https://github.com/ubuangel/FastBus/blob/main/img/Register_1.png?raw=true)
 
 - **Pagina de Usuario y Reserva de Asiento:** Aca pódemos ya selecci0onar los viajes, tambien podemos ya reservar el asiento en la lista que se genera en la parte inferior.
 ![UserRes](https://github.com/ubuangel/FastBus/blob/main/img/1.png?raw=true)
